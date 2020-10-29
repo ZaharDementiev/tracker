@@ -113,8 +113,8 @@ public class ActivityGps extends AppCompatActivity implements GPSCallback {
                 .setText("Speed of GPS");
         tvSensor = (TextView) findViewById(R.id.sensorX);
         speedometer = (Speedometer) findViewById(R.id.speedometer);
-        btnSwitch= (Button) findViewById(R.id.switch_activity);
-        btnSwitch.setText("Show Sensor speed");
+        //btnSwitch= (Button) findViewById(R.id.switch_activity);
+        //btnSwitch.setText("Show Sensor speed");
 
 
     }
