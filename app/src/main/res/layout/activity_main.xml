@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.ActivitySensor">
+
+
+    <com.production.speedometr.utils.Speedometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speedometer"
+        android:background="#a8c8b2"
+        app:maxSpeed="200"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Position"
+        android:gravity="center"
+        android:layout_above="@+id/switch_activity"
+        android:id="@+id/currentPosition"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/switch_activity"
+        />
+
+</RelativeLayout>
